@@ -22,10 +22,10 @@ spec:
         name: worodpress
         env: 
         - name: WORDPRESS_DB_HOST
-          value: test
+          value: mydb
         - name: WORDPRESS_DB_PASSWORD
           value: centos
         - name: WORDPRESS_DB_USER
           value: root
         - name: WORDPRESS_DB_NAME
-          value: unnati
+          value: test
